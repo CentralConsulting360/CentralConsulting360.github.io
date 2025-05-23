@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Card Fields - Business Central</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .section {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    strong {
+      color: #34495e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Item Card Fields in Microsoft Dynamics 365 Business Central</h1>
 
+  <div class="section">
+    <h2>🧾 General Information</h2>
+    <ul>
+      <li><strong>No.:</strong> Unique identifier for the item.</li>
+      <li><strong>Description:</strong> Detailed description of the item.</li>
+      <li><strong>Base Unit of Measure:</strong> The primary unit for measurement.</li>
+      <li><strong>Item Category Code:</strong> Categorizes the item.</li>
+      <li><strong>Type:</strong> Inventory, Non-Inventory, or Service item.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>💰 Pricing and Costing</h2>
+    <ul>
+      <li><strong>Unit Price:</strong> Sales price of the item.</li>
+      <li><strong>Standard Cost:</strong> Estimated cost (for standard costing).</li>
+      <li><strong>Unit Cost:</strong> Actual cost per unit.</li>
+      <li><strong>Costing Method:</strong> FIFO, LIFO, Average, Standard, or Specific.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📦 Inventory Details</h2>
+    <ul>
+      <li><strong>Inventory:</strong> Current quantity in stock.</li>
+      <li><strong>Qty. on Purch. Order:</strong> Quantity on purchase orders.</li>
+      <li><strong>Qty. on Sales Order:</strong> Quantity on sales orders.</li>
+      <li><strong>Stockout Warning:</strong> Alerts for low stock.</li>
+      <li><strong>Prevent Negative Inventory:</strong> Stops negative stock levels.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔁 Replenishment</h2>
+    <ul>
+      <li><strong>Replenishment System:</strong> Purchase, Production, or Assembly.</li>
+      <li><strong>Lead Time Calculation:</strong> Time to replenish item.</li>
+      <li><strong>Vendor No.:</strong> Primary vendor.</li>
+      <li><strong>Purchasing Blocked:</strong> Prevents purchasing this item.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Planning</h2>
+    <ul>
+      <li><strong>Reordering Policy:</strong> How item is reordered (e.g., Fixed Quantity).</li>
+      <li><strong>Safety Stock Quantity:</strong> Minimum stock level.</li>
+      <li><strong>Reorder Point:</strong> Stock level to trigger reorder.</li>
+      <li><strong>Order Multiple:</strong> Order in specified multiples.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔍 Item Tracking</h2>
+    <ul>
+      <li><strong>Item Tracking Code:</strong> Defines serial/lot number tracking.</li>
+      <li><strong>Serial Nos.:</strong> Serial number series.</li>
+      <li><strong>Lot Nos.:</strong> Lot number series.</li>
+      <li><strong>Expiration Calculation:</strong> Expiry date calculation formula.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🏢 Warehouse</h2>
+    <ul>
+      <li><strong>Location Code:</strong> Warehouse location.</li>
+      <li><strong>Bin Code:</strong> Specific storage bin.</li>
+      <li><strong>Warehouse Class Code:</strong> Storage requirements.</li>
+      <li><strong>Special Equipment Code:</strong> Equipment needed.</li>
+      <li><strong>Put-away Template Code:</strong> Template for storing.</li>
+      <li><strong>Put-away Unit of Measure Code:</strong> Unit used for storage.</li>
+      <li><strong>Physical Inventory Counting Period Code:</strong> Counting frequency.</li>
+      <li><strong>Next Counting Start/End Date:</strong> Scheduled inventory dates.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🌐 Foreign Trade</h2>
+    <ul>
+      <li><strong>Country/Region of Origin Code:</strong> Item origin.</li>
+      <li><strong>Commodity Code:</strong> Customs and trade code.</li>
+      <li><strong>Tariff No.:</strong> Applicable tariff code.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧾 Posting Details</h2>
+    <ul>
+      <li><strong>Gen. Prod. Posting Group:</strong> G/L posting setup.</li>
+      <li><strong>Inventory Posting Group:</strong> Inventory G/L posting.</li>
+      <li><strong>GST Group Code:</strong> Indian GST group.</li>
+      <li><strong>HSN/SAC Code:</strong> Tax classification code.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
